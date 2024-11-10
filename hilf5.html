@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <meta content="text/html; charset=windows-1252" http-equiv="content-type">
+    <title>H5</title>
+    <script language="JavaScript">
+function Buttontext(sek) {
+if (sek>0) {
+document.Eingabe.button1.value = "noch " + sek + " Sekunden";
+} else {
+document.Eingabe.button1.value = "Antwort 5 ist bereit!";
+document.Eingabe.button1.disabled = false;
+}
+}
+window.setTimeout("Buttontext(9);", 1000);
+window.setTimeout("Buttontext(8);", 2000);
+window.setTimeout("Buttontext(7);", 3000);
+window.setTimeout("Buttontext(6);", 4000);
+window.setTimeout("Buttontext(5);", 5000);
+window.setTimeout("Buttontext(4);", 6000);
+window.setTimeout("Buttontext(3);", 7000);
+window.setTimeout("Buttontext(2);", 8000);
+window.setTimeout("Buttontext(1);", 9000);
+window.setTimeout("Buttontext(0);", 10000);
+</script>
+  </head>
+ <body>
+    <div align="center">
+      <center>
+        <table border="0" cellpadding="0" cellspacing="0" width="500">
+          <tbody>
+            <tr>
+              <td bgcolor="#FFFF00"> <blockquote>
+                <p><br>
+            <span style="font-family: Arial;"><span style="color: #0101DF;"><strong>U-I-Kennlinie einer Solarzelle</strong><br>
+                    <br>
+                    </span>
+                    <b>Hilfe 5</b><br>
+                    <br>
+                <p> Schlie&#223en Sie die Elektrizit&#228tsquelle an die Lampe an und schlie&#223en Sie den Stromkreis "Solarzelle" durch anschlie&#223sen aller Messger&#228te. 
+                <p> &#220berpr&#252fen Sie Ihre Schaltung mithilfe der n&#228chsten Antwort.
+			
+			
+			</span></p>
+              </blockquote>
+                <p><br>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div align="center">
+                  <form name="Eingabe"> <input name="button1" value="noch 10 Sekunden"
+
+                      disabled="disabled" onClick="location.href='ant5.html';"
+
+                      type="button"> </form>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </center>
+    </div>
+  </body>
+</html>
